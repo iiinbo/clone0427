@@ -7,11 +7,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="clone0425" />
+        <module name="ws0425" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="cc0420" target="11" />
+      <module name="clone0425" target="11" />
       <module name="web03" target="11" />
       <module name="web04" target="11" />
       <module name="web0420" target="11" />
@@ -24,6 +25,7 @@
       <module name="web03" options="-parameters" />
       <module name="web04" options="-parameters" />
       <module name="web0420" options="-parameters" />
+      <module name="ws0425" options="-parameters" />
     </option>
   </component>
 </project>

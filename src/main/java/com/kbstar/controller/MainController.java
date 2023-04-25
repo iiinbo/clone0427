@@ -17,10 +17,10 @@ public class MainController {
     }
 
     // charts
-    @RequestMapping("/charts")
-    public String charts(Model model) {
-        model.addAttribute("center", "charts"); // center에는 charts 페이지 뿌려져라.
-        return "index";
-    }
+//    @RequestMapping("/charts")
+//    public String charts(Model model) {
+//        model.addAttribute("center", "charts"); // center에는 charts 페이지 뿌려져라.
+//        return "index";
+//    }
 
 }
